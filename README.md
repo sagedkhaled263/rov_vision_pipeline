@@ -132,7 +132,7 @@ python3 3d_recording/oak_d_receiver_laptop.py
 # Videos saved to ~/3d_video/
 ```
 
-**Full reconstruction pipeline** (COLMAP + Instant-NGP → mesh export): see **[`3d_recording/README_Video_to_3D.pdf`](3d_recording/README_Video_to_3D.pdf)**
+**Full reconstruction pipeline** (COLMAP + Instant-NGP → mesh export): see **[`3d_recording/README_Video_to_3D.pdf`](3d_recording/README Video to 3D.pdf)**
 
 ---
 
@@ -162,23 +162,7 @@ All scripts assume the ROV/Pi is at `192.168.1.100`. Adjust the `SENDER_HOST` / 
 
 ---
 
-## .gitignore
 
-```
-# Model weights — add manually after cloning
-crab_detection/crab_detection.pt
-*.pt
-
-# Recorded videos
-3d_video/
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-```
-
----
 
 ## Hardware
 
